@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>How to create a SpringBoot project</title>
+      <link href="2021/04/11/How-to-create-a-SpringBoot-project/"/>
+      <url>2021/04/11/How-to-create-a-SpringBoot-project/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://langbei.github.io/">MyBlog</a> You can find any information you want.If not, please contact me.Welcome everyone to put forward your suggestions for amendments to my article.Please leave your suggestions on my <a href="https://github.com/LangBei/LangBei.github.io">GitHub</a> or <a href="">Gitee</a>, thank you!</p><h2 id="Quick-Start-Editor-IDEA-Ultimate-2018-1"><a href="#Quick-Start-Editor-IDEA-Ultimate-2018-1" class="headerlink" title="Quick Start (Editor IDEA Ultimate 2018.1)"></a>Quick Start (Editor IDEA Ultimate 2018.1)</h2><h3 id="what-is-SpringBoot"><a href="#what-is-SpringBoot" class="headerlink" title="what is SpringBoot?"></a>what is SpringBoot?</h3><p>SpringBoot是由Pivotal团队在2013年开始研发、2014年4月发布第一个版本的全新开源的轻量级框架。它基于Spring4.0设计，不仅继承了Spring框架原有的优秀特性，而且还通过简化配置来进一步简化了Spring应用的整个搭建和开发过程。另外SpringBoot通过集成大量的框架使得依赖包的版本冲突，以及引用的不稳定性等问题得到了很好的解决。</p><h3 id="Advantages-of-SpringBoot"><a href="#Advantages-of-SpringBoot" class="headerlink" title="Advantages of SpringBoot?"></a>Advantages of SpringBoot?</h3><ol><li>可以创建独立的Spring应用程序，并且基于其Maven或Gradle插件，可以创建可执行的JARs和WARs；</li><li>内嵌Tomcat或Jetty等Servlet容器；</li><li>提供自动配置的“starter”项目对象模型（POMS）以简化Maven配置；</li><li>尽可能自动配置Spring容器；</li><li>提供准备好的特性，如指标、健康检查和外部化配置；</li><li>绝对没有代码生成，不需要XML配置。</li></ol><p>URL: [<a href="https://baike.baidu.com/item/Spring%20Boot/20249767?fr=aladdin%5D">https://baike.baidu.com/item/Spring%20Boot/20249767?fr=aladdin]</a></p><h3 id="How-to-create-SpringBoot-project"><a href="#How-to-create-SpringBoot-project" class="headerlink" title="How to create SpringBoot project?"></a>How to create SpringBoot project?</h3><p>File -&gt; New -&gt; Project -&gt; Spring Initializr -&gt; Select JDK and default choose Initializr Service URL[<a href="https://start.spring.io/]">https://start.spring.io/]</a> -&gt; write project metadata -&gt; Next -&gt; select dependency(It is recommended to choose web dependency) -&gt; Next -&gt; select project Path -&gt; Finish  </p><h4 id="A-simple-SpringBoot-is-created"><a href="#A-simple-SpringBoot-is-created" class="headerlink" title="A simple SpringBoot is created"></a>A simple SpringBoot is created</h4>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Create a simple SpringBoot project </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>my-first-blog</title>
       <link href="2021/02/03/my-first-blog/"/>
       <url>2021/02/03/my-first-blog/</url>
