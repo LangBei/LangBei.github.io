@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="my-first-blog-test, Hexo">
+    <meta name="keywords" content="redis-expire-date, Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>my-first-blog-test | Hexo</title>
+    <title>redis-expire-date | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">my-first-blog-test</h1>
+                    <h1 class="description center-align post-title">redis-expire-date</h1>
                 </div>
             </div>
         </div>
@@ -429,9 +429,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/redis%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%E5%BB%B6%E9%95%BF/">
+                                <span class="chip bg-color">redis过期时间延长</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -443,7 +447,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-01-11
+                    2021-04-18
                 </div>
                 
 
@@ -452,14 +456,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    79
+                    983
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    4 Min
                 </div>
                 
 
@@ -479,16 +483,32 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="测试博客"><a href="#测试博客" class="headerlink" title="测试博客"></a>测试博客</h2>
+                <p>当Redis中存在一个键值对[过期时间暂定30分钟]，当重新塞入相同的键值对，过期时间仍为30分钟</p>
+<hr>
+<p>Welcome to <a target="_blank" rel="noopener" href="https://langbei.github.io/">MyBlog</a> You can find any information you want.If not, please contact me.Welcome everyone to put forward your suggestions for amendments to my article.Please leave your suggestions on my <a target="_blank" rel="noopener" href="https://github.com/LangBei/LangBei.github.io">GitHub</a> or <a href="">Gitee</a>, thank you!</p>
+<h2 id="question"><a href="#question" class="headerlink" title="question"></a>question</h2><p>当Redis中存在一个键值对[过期时间暂定30分钟]，当重新塞入相同的键值对，过期时间仍为30分钟，重新更新值对过期时间不影响</p>
+<h2 id="Quick-Start-Editor-IDEA-Ultimate-2018-1"><a href="#Quick-Start-Editor-IDEA-Ultimate-2018-1" class="headerlink" title="Quick Start (Editor IDEA Ultimate 2018.1)"></a>Quick Start (Editor IDEA Ultimate 2018.1)</h2><h3 id="省去添加Redis依赖的步骤"><a href="#省去添加Redis依赖的步骤" class="headerlink" title="省去添加Redis依赖的步骤"></a>省去添加Redis依赖的步骤</h3><ol>
+<li>RedisTemplate</li>
+</ol>
+<h3 id="首先测试重复塞入值对过期时间的影响"><a href="#首先测试重复塞入值对过期时间的影响" class="headerlink" title="首先测试重复塞入值对过期时间的影响"></a>首先测试重复塞入值对过期时间的影响</h3><ul>
+<li>代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">import org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line">import org.springframework.data.redis.core.RedisTemplate;</span><br><span class="line">import org.springframework.data.redis.core.StringRedisTemplate;</span><br><span class="line">import org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line">import org.springframework.web.bind.annotation.RequestMethod;</span><br><span class="line">import org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line">import java.util.concurrent.TimeUnit;</span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> * author:NWS</span><br><span class="line"> * Date:2021&#x2F;4&#x2F;18  0:10</span><br><span class="line"> * 描述：</span><br><span class="line"> *&#x2F;</span><br><span class="line">@RestController</span><br><span class="line">public class redisTemTest &#123;</span><br><span class="line"></span><br><span class="line">    @Autowired</span><br><span class="line">    private RedisTemplate redisTemplate;</span><br><span class="line">    @Autowired</span><br><span class="line">    private StringRedisTemplate stringRedisTemplate;</span><br><span class="line"></span><br><span class="line">    @RequestMapping(value &#x3D; &quot;&#x2F;test&quot;,method &#x3D; RequestMethod.GET)</span><br><span class="line">    public String test() throws Exception &#123;</span><br><span class="line">        redisTemplate.opsForValue().set(&quot;hello&quot;,&quot;world&quot;,60 * 30,TimeUnit.SECONDS);</span><br><span class="line">        System.out.println(&quot;第一次塞入值过期时间为：&quot;+redisTemplate.getExpire(&quot;hello&quot;));</span><br><span class="line">        Thread.sleep(1000 * 5);</span><br><span class="line">        redisTemplate.opsForValue().set(&quot;hello&quot;,&quot;world&quot;,60 * 30,TimeUnit.SECONDS);</span><br><span class="line">        System.out.println(&quot;第二次塞入值过期时间为：&quot;+redisTemplate.getExpire(&quot;hello&quot;));</span><br><span class="line">        return null;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>输出<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">第一次塞入值过期时间为：1800</span><br><span class="line">第二次塞入值过期时间为：1800</span><br></pre></td></tr></table></figure></li>
+<li>结论<br>当Redis更新值后过期时间被重新设置<br>redis的官方文档, 他们是这么解释的:<br>The timeout will only be cleared by commands that delete or overwrite the contents of the key, including DEL, SET, GETSET and all the *STORE commands. This means that all the operations that conceptually alter the value stored at the key without replacing it with a new one will leave the timeout untouched. For instance, incrementing the value of a key with INCR, pushing a new value into a list with LPUSH, or altering the field value of a hash with HSET are all operations that will leave the timeout untouched.<br>解释：<br>如果用DEL, SET, GETSET会将key对应存储的值替换成新的，命令也会清除掉超时时间；如果list结构中添加一个数据或者改变hset数据的一个字段是不会清除超时时间的；如果想要通过set去覆盖值那就必须重新设置expire。<h3 id="重新计算值后塞入，更新过期时间"><a href="#重新计算值后塞入，更新过期时间" class="headerlink" title="重新计算值后塞入，更新过期时间"></a>重新计算值后塞入，更新过期时间</h3></li>
+<li>代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">import org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line">import org.springframework.data.redis.core.RedisTemplate;</span><br><span class="line">import org.springframework.data.redis.core.StringRedisTemplate;</span><br><span class="line">import org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line">import org.springframework.web.bind.annotation.RequestMethod;</span><br><span class="line">import org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line">import java.time.Instant;</span><br><span class="line">import java.util.Date;</span><br><span class="line">import java.util.concurrent.TimeUnit;</span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> * author:NWS</span><br><span class="line"> * Date:2021&#x2F;4&#x2F;18  0:10</span><br><span class="line"> * 描述：</span><br><span class="line"> *&#x2F;</span><br><span class="line">@RestController</span><br><span class="line">public class redisTemTest &#123;</span><br><span class="line"></span><br><span class="line">    @Autowired</span><br><span class="line">    private RedisTemplate redisTemplate;</span><br><span class="line">    @Autowired</span><br><span class="line">    private StringRedisTemplate stringRedisTemplate;</span><br><span class="line"></span><br><span class="line">    @RequestMapping(value &#x3D; &quot;&#x2F;test&quot;,method &#x3D; RequestMethod.GET)</span><br><span class="line">    public String test() throws Exception &#123;</span><br><span class="line">        redisTemplate.opsForValue().set(&quot;hello&quot;,&quot;world&quot;,60 * 30,TimeUnit.SECONDS);</span><br><span class="line">        System.out.println(&quot;第一次塞入值过期时间为：&quot;+redisTemplate.getExpire(&quot;hello&quot;));</span><br><span class="line">        Thread.sleep(1000 * 5);</span><br><span class="line">&#x2F;&#x2F;        redisTemplate.opsForValue().set(&quot;hello&quot;,&quot;world&quot;,60 * 30,TimeUnit.SECONDS);</span><br><span class="line">&#x2F;&#x2F;        System.out.println(&quot;第二次塞入值过期时间为：&quot;+redisTemplate.getExpire(&quot;hello&quot;));</span><br><span class="line">        Date date &#x3D; new Date(Instant.now().toEpochMilli() + redisTemplate.getExpire(&quot;hello&quot;) * 1000);</span><br><span class="line">        redisTemplate.expireAt(&quot;hello&quot;,date);</span><br><span class="line">        System.out.println(&quot;第二次塞入值过期时间为：&quot;+redisTemplate.getExpire(&quot;hello&quot;));</span><br><span class="line">        return null;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>输出<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">第一次塞入值过期时间为：1800</span><br><span class="line">第二次塞入值过期时间为：1795</span><br></pre></td></tr></table></figure></li>
+<li>结论<br>过期时间已经被更新，借助的方法为逻辑计算后更新  </li>
+</ul>
+<hr>
+<ol start="2">
+<li>StringRedisTemplate</li>
+</ol>
+<p>StringRedisTemplate的方法与RedisTemplate相同，因此，StringRedisTemplate测试方法、类与RedisTemplate相同，都是先将过期时间取出，然后进行逻辑计算，最后更新Redis中的值</p>
+<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><ol>
+<li>StringRedisTemplate与RedisTemplate用法基本相同;</li>
+<li>StringRedisTemplate与RedisTemplate都不可以直接更新值的同时保留键值对的过期时间,如果直接更新，会将键值对的过期时间重置,因此,更新前需要将过期时间取出并计算后重新更新,即可解决问题</li>
+</ol>
+<h3 id="参考文章链接"><a href="#参考文章链接" class="headerlink" title="参考文章链接"></a>参考文章链接</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_40910372/article/details/103834935">blog</a></p>
+
                 
             </div>
             <hr/>
@@ -514,7 +534,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/01/11/my-first-blog-test/">http://example.com/2021/01/11/my-first-blog-test/</a>
+                    <a href="http://example.com/2021/04/18/redis-expire-date/">http://example.com/2021/04/18/redis-expire-date/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -551,7 +571,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/redis%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%E5%BB%B6%E9%95%BF/">
+                                    <span class="chip bg-color">redis过期时间延长</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -595,54 +619,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/01/22/hello-world/">
+                <a href="/2021/04/18/redis-expire-date/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="redis-expire-date">
                         
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-22
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            NWS
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/01/11/my-first-blog-test/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="my-first-blog-test">
-                        
-                        <span class="card-title">my-first-blog-test</span>
+                        <span class="card-title">redis-expire-date</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -653,7 +641,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-18
                             </span>
                         <span class="publish-author">
                             
@@ -664,6 +652,59 @@
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/redis%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%E5%BB%B6%E9%95%BF/">
+                        <span class="chip bg-color">redis过期时间延长</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/04/13/computer-failure-repair/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="computer failure repair">
+                        
+                        <span class="card-title">computer failure repair</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            NWS
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C%E7%BB%B4%E4%BF%AE-%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91-%E5%B1%8F%E5%B9%95%E9%BB%91%E6%8E%89%EF%BC%8C%E4%BD%86%E7%94%B5%E8%84%91%E4%BB%8D%E5%9C%A8%E8%BF%90%E8%A1%8C/">
+                        <span class="chip bg-color">电脑故障维修[笔记本电脑]--屏幕黑掉，但电脑仍在运行</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
